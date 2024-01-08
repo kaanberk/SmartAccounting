@@ -1,0 +1,791 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+
+html{
+    box-sizing: border-box;
+    height: 100%;  
+  }
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+body {
+	background-color: white;
+	overflow-x: hidden; 
+}
+
+header h1{
+	position: relative;
+	text-align: center;
+	margin-top: 5%;
+	display: block;
+	font-family: 'Alike', serif;	font-size: 5.5vw;
+	/* color: rgb(18, 44, 192); */
+	color: #064ab0;
+	/* color: black; */
+	font-family: 'Yeseva One', cursive;
+	margin-right: 3%;
+    margin-left: 3%;
+	font-size: 9vw;
+    margin-top: 7%;
+    font-family: 'Metrophobic', sans-serif;
+
+}
+
+ul{
+	position: relative;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	margin-left: 0%;
+	border-style: solid none none none;
+	border-color: #064ab0;
+}
+
+ul a{
+	font-size: 4vw;
+	text-decoration: none;
+	font-family:sans-serif;
+	/* color:rgb(0, 162, 255); */
+	color: #2b3a67;
+	background-color: #fff;
+	padding: 0vw;
+    padding-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+	transition: 0.5s;
+}
+
+nav{
+    position: relative;
+    width: 90%;
+    height: 6vw;
+    margin-top: 0.5%;
+    /* background-color: #098be8c0; */
+	bottom: 10%;
+	margin-bottom: 0.5%;
+	margin-left: 5%;
+    margin-right: 0%;
+    padding-left: 0%;
+    
+	
+}
+
+.offer{
+	position: relative;
+	color: #000000;
+	font-size: 10vw;
+	
+}
+
+/* Brief Description */
+
+.daytoday{
+    margin-top: 30%;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.daytoday h3{
+    color: #363131;
+    font-size: 7vw;
+}
+
+font{
+    color: #064ab0;
+}
+
+.daytoday p{
+    margin-top: 5%;
+    color: #000f5b;
+}
+
+/* book keeping service */
+
+.bookkeeping{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #c4d1f3;
+}
+
+.bookkeeping h4{
+    padding-top: 10%;
+    font-size: 6vw;
+}
+
+.bookkeepingtxt{
+    margin-top: 5%;
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.bookkeepingtxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-bottom: 5%;
+}
+
+/* tax service */
+
+.tax{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.tax h4{
+    font-size: 7vw;
+}
+
+.taxtxt{
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.taxtxt p{
+    margin-top: 7%;
+}
+
+.taxtxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+}
+
+/* payroll service */
+
+.payroll{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #c4d1f3;
+
+}
+
+.payroll h4{
+    padding-top: 10%;
+
+    font-size: 7vw;
+}
+
+.payrolltxt{
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.payrolltxt p{
+    margin-top: 7%;
+}
+
+.payrolltxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/* vat services */
+
+.vat{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.vat h4{
+    font-size: 7vw;
+}
+
+.vattxt{
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.vattxt p{
+    margin-top: 7%;
+}
+
+.vattxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+}
+
+/* year end accounting service */
+
+.year{
+    text-align: center;
+    margin-top: 10%;
+    background-color: #c4d1f3;
+
+}
+
+.year h4{
+    padding-top: 10%;
+
+    font-size: 7vw;
+}
+
+.yeartxt{
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.yeartxt p{
+    margin-top: 7%;
+}
+
+.yeartxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/* business consulting service */
+
+.business{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.business h4{
+    font-size: 7vw;
+}
+
+.businesstxt{
+    display: block;
+    margin-left: 4%;
+    margin-right: 6%;
+}
+
+.businesstxt p{
+    margin-top: 7%;
+}
+
+.businesstxt img{
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+    margin-left: 5%;
+}
+
+/* footer section */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 30%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.infos img{
+	width: 10%;
+	height: 10%;
+}
+
+.openning{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+
+}
+
+.openning img{
+	width: 20%;
+	height: 20%;
+}
+
+.location{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.location img{
+	width: 20%;
+	height: 20%;
+}
+
+.email{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.email img{
+	width: 20%;
+	height: 20%;
+}
+
+.call{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.call img{
+	width: 20%;
+	height: 20%;
+}
+
+/* made by Smart Accounting */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+
+@media screen and (min-width: 500px){
+
+html{
+    box-sizing: border-box;
+    height: 100%;  
+    }
+    
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+} 
+
+body {
+    background-color: white;
+    overflow-x: hidden; 
+
+    
+}
+
+header{
+    display: flex;
+    margin-top: 0%;
+    position: relative;
+}
+
+header h1{
+    position: fixed;
+    text-align: left;
+    margin-top: 0.7%;
+    display: block;
+	font-family: 'Alike', serif;	font-size: 4.8vw;
+    /* color: rgb(18, 44, 192); */
+    color: #064ab0;
+    /* color: black; */
+    background-color: white;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 10%;
+    margin-left: 0%;
+    padding-bottom: 1%;
+    font-family: 'Metrophobic', sans-serif;
+
+} 
+
+ul{
+    position: fixed;
+    width: auto;
+    left: 55%;
+    display: flex;
+    background-color: white;
+    padding-left: -3%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-left: -0.5%;
+    border-style: none none none none;
+    margin-top: 0%;
+	padding-bottom: 1.06%;
+}
+
+ul a{
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-family:sans-serif;
+    /* color:rgb(0, 162, 255); */
+    color: #2b3a67;
+    background-color: #fff;
+    padding: 2vw;
+    padding-bottom: 2vw;
+    transition: 0.5s;
+    margin: 0%;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 6.5vw;
+    margin-top: 0%;
+    /* background-color: #098be8c0; */
+    bottom: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+ul a:hover{
+    background-color: #098be8a4;;
+}
+
+#bar{
+    width: 100%;
+    height: 0.5vw;
+    background-color: #098be8a4;
+    margin-top: 5.5vw;
+    position: absolute;
+}
+
+ul a:hover{
+    background-color: #098be8a4;;
+}
+
+#bar{
+    width: 100%;
+    height: 0.5vw;
+    background-color: #098be8a4;
+    margin-top: 5.5vw;
+    position: absolute;
+}
+
+/* title of the page */
+
+.daytoday{
+    margin-top: 6%;
+}
+
+.daytoday h3{
+    font-size: 5vw;
+}
+
+.daytoday p{
+    font-size: 2vw;
+}
+
+/* bookkeeping services */
+
+.bookkeeping h4{
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+.bookkeepingtxt{
+    display: flex;
+    font-size: 2vw;
+}
+
+.bookkeeping img{
+    width: 20%;
+    margin-top: -5%;
+    margin-left: 10%;
+}
+
+/* tax */
+.tax{
+    margin-top: 5%;
+}
+
+.tax h4{
+    font-size: 4vw;
+    padding-top: 0%;
+}
+
+.taxtxt{
+    margin-top: -3%;
+    display: flex;
+    font-size: 2vw;
+    margin-bottom: -5%;
+}
+
+.taxtxt p{
+    font-size: 2vw;
+    display: block;
+}
+
+.tax img{
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+/* payroll */
+
+.payroll{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.payroll h4{
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+.payrolltxt{
+    margin-top: -3%;
+    display: flex;
+    font-size: 2vw;
+    padding-bottom: 5%;
+}
+
+.payrolltxt p{
+    font-size: 2vw;
+    display: block;
+}
+
+.payroll img{
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+/* vat */
+
+.vat{
+    margin-top: 5%;
+}
+
+.vat h4{
+    font-size: 4vw;
+    margin-top: -5%;
+}
+
+.vat img{
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.vattxt{
+    margin-top: -3%;
+    display: flex;
+    font-size: 2vw;
+    margin-bottom: -5%;
+}
+
+.vattxt p{
+    font-size: 2vw;
+    display: block;
+}
+
+/* year end accounting */
+
+.year h4{
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+.yeartxt{
+    margin-top: -3%;
+    display: flex;
+    font-size: 2vw;
+}
+
+.year img{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+/* business consulting */
+
+.business{
+    margin-top: 10%;
+}
+
+.business h4{
+    font-size: 4vw;
+    margin-top: -5%;
+}
+
+.business img{
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.businesstxt{
+    margin-top: -3%;
+    display: flex;
+    font-size: 2vw;
+    margin-bottom: -23%;
+}
+
+.businesstxt p{
+    font-size: 2vw;
+    display: block;
+}
+
+/* footer part */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 30%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	display: flex;
+}
+
+.infos p{
+	margin-top: 5%;
+}
+
+.openning{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 4%;
+	white-space: nowrap;
+}
+
+.openning img{
+	width: 30%;
+	height: 30%;
+}
+
+.location{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3.2%;
+}
+
+.location img{
+	width: 30%;
+	height: 30%;
+}
+
+.email{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	white-space: nowrap;
+	padding-bottom: 4%;
+}
+
+.email img{
+	width: 30%;
+	height: 30%;
+}
+
+.call{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	margin-right: 1%;
+}
+
+.call img{
+	width: 30%;
+	height: 30%;
+}
+
+.numbers{
+	display: flex;
+	margin: 4%;
+
+}
+
+/* made by Smart Accounting */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+}

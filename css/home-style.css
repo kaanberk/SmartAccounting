@@ -1,0 +1,961 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;  
+  }
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+body {
+	background-color: white;
+	overflow-x: hidden; 
+}
+
+header h1{
+	position: relative;
+	text-align: center;
+	margin-top: 5%;
+	display: block;
+	font-family: 'Alike', serif;	font-size: 5.5vw;
+	/* color: rgb(18, 44, 192); */
+	color: #064ab0;
+	/* color: black; */
+	font-family: 'Yeseva One', cursive;
+	margin-right: 3%;
+    margin-left: 3%;
+	font-size: 9vw;
+    margin-top: 7%;
+	font-family: 'Metrophobic', sans-serif;
+
+}
+
+ul{
+	position: relative;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	margin-left: 0%;
+	border-style: solid none none none;
+	border-color: #064ab0;
+}
+
+ul a{
+	font-size: 4vw;
+	text-decoration: none;
+	font-family:sans-serif;
+	/* color:rgb(0, 162, 255); */
+	color: #2b3a67;
+	background-color: #fff;
+	padding: 0vw;
+    padding-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+	transition: 0.5s;
+}
+
+nav{
+    position: relative;
+    width: 90%;
+    height: 6vw;
+    margin-top: 0.5%;
+    /* background-color: #098be8c0; */
+	bottom: 10%;
+	margin-bottom: 10.5%;
+	margin-left: 5%;
+    margin-right: 0%;
+    padding-left: 0%;
+	
+}
+
+.offer{
+	position: relative;
+	color: #000000;
+	font-size: 10vw;
+	z-index: 0;
+	font-family: 'Arbutus Slab', serif;
+	font-family: 'Metrophobic', sans-serif;
+
+	
+}
+
+/* sliding background images */
+
+.slider {
+	width: 105vw;
+	height: 110vw;
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 3px 10px 15px 0px rgba(0,0,0,0.4);
+	margin-top: 25%;
+	position:absolute;
+
+  }
+
+  .ulimg{
+	position: absolute;
+	display: flex;
+    list-style: none;
+    transition: all 1s ease;
+	
+	
+  }
+
+  .ulimg img{
+	width: 100vw;
+  	height: 110vw;
+  	border-radius: 3px;
+	opacity: 0.7;
+  }
+
+/* welcome sentence animation, text,boxes */
+
+#container {
+	margin-top: 50%;
+	text-align: center;
+	font-size: 250%;
+	/* margin-top: 15%;
+	margin-bottom: 15%; */
+	height: 48vw;
+	/* background-image:linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.755)) , url(../images/leicsterCity.webp); */
+	/* background-size: cover; */
+	
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	width: 100%;	
+}
+
+#container-text {
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+}
+
+#rewrite-text {
+	position: relative;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	font-family: monospace;
+	font-size: 10vw;
+}
+
+#cursor {
+	width: 3px;
+	height: 30px;
+	background-color: rgb(9, 7, 4);
+	color: aliceblue;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(14, 11, 5); 
+	}
+}
+
+.box {
+	margin-bottom: 85%;
+	position: absolute;
+	width: 8%;
+	height: 8%;
+	background-color: rgba(219, 0, 248, 0.638);
+	transform-origin: left top;
+	margin-right: 95%;
+	margin-top: 10%;
+  }
+
+  .box2 {
+	margin-top: 160%;
+	position: absolute;
+	width: 3.5%;
+	height: 8%;
+	background-color: rgba(7, 171, 217, 0.577);
+	transform-origin: left top;
+	margin-right: 99%;
+  }
+
+  .box3 {
+	margin-bottom: 55%;
+	position: absolute;
+	width: 3.5%;
+	height: 8%;
+	background-color: rgba(7, 171, 217, 0.577);
+	transform-origin: right top;
+	margin-left: 100%;
+  }
+
+  .box4 {
+	margin-top:125%;
+	position: absolute;
+	width: 8%;
+	height: 8%;
+	background-color: rgba(219, 0, 248, 0.638);
+	transform-origin: right top;
+	margin-left: 99%;
+  }
+
+/* Our Services Part */
+
+.Services{
+	margin-top: 10%;
+}
+
+#titleServices{
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Yeseva One', cursive;
+}
+
+.section-two {
+	position: relative;
+	height:30vw;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	margin-top: 60%;
+  }
+
+  .section-two-title {
+	font-family: TitlesFont;
+	font-size: 9.5vw;
+	text-align: center;
+	position: relative;
+	height: 100%;
+	width: 50%;
+	top: 120%;
+	left: 25%;
+	right: 6%;
+	bottom: 50%;
+	color: rgb(166, 0, 255);
+	color: #000000;
+	margin-top: 0%;
+  }
+
+	font{
+		color: rgb(0, 120, 241);
+	}
+
+  .section-two-text {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	position: relative;
+	width: 90%;
+	height: 100%;
+	top: 65%;
+	right: 50%;
+	left: 4%;
+	color: black;
+  }
+
+  .column {
+	float: left;
+	width: 50%;
+	position: relative;
+	margin-bottom: 5vw;
+	padding-top: 20vw;
+  }
+
+  .column a {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 4.4vw;
+	text-align: match-parent;
+	position: absolute;
+	color: #064ab0;
+	top: 110%;
+	left: 23%;
+  }
+
+  .column p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 4.4vw;
+	text-align: match-parent;
+	position: absolute;
+	color: black;
+	top: 110%;
+	left: 20%;
+	color: #064ab0;
+  }
+
+  .row::after {
+	content: "";
+	position: absolute;
+	clear: both;
+	display: table;
+  }
+
+  * {
+	box-sizing: border-box;
+  }
+ 
+/* Quote Part */
+
+.quote{
+	background-color:rgb(111, 167, 227);
+	font-size: 7vw;
+	text-align: center;
+	margin-top: 180%;
+	height: 100%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	position: relative;
+	margin-right: 0%;
+}
+
+.buffet{
+	margin-top: 5%;
+	font-size: 5vw;
+}
+
+/* we are part */
+
+.weare{
+	margin-top: 20%;
+	width: 95%;
+	text-align: center;
+	height: 80vw;
+}
+
+.wearetitle{
+	color: rgb(212, 0, 255);
+	font-family: 'Alike', serif;	
+	font-size: 9vw;
+}
+
+.wearetxt{
+	display: flex;
+	font-size: 4vw;
+}
+
+.wearetxt p{
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: 4vw;
+}
+
+.weare h4{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: rgb(0, 120, 241);
+}
+
+.businessman{
+	width: 30vw;
+	height: 30vw;
+	margin-right: 5%;
+	margin-top: 14%;
+}
+
+/* footer part */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 50%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.infos img{
+	width: 10%;
+	height: 10%;
+}
+
+.openning{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.openning img{
+	width: 20%;
+	height: 20%;
+}
+
+.location{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.location img{
+	width: 20%;
+	height: 20%;
+}
+
+.email{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.email img{
+	width: 20%;
+	height: 20%;
+}
+
+.call{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.call img{
+	width: 20%;
+	height: 20%;
+}
+
+/* made by Kaan Berk Kocak */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+
+@media screen and (min-width: 500px) {
+	
+html{
+    box-sizing: border-box;
+    height: 100%;  
+  }
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+body {
+	background-color: white;
+	overflow-x: hidden; 
+}
+
+header{
+	display: flex;
+	margin-top: 0%;
+	position: relative;
+}
+
+header h1{
+    position: fixed;
+    text-align: left;
+    margin-top: 0.7%;
+    display: block;
+	font-family: 'Alike', serif;	
+	font-size: 4.8vw;
+    /* color: rgb(18, 44, 192); */
+    color: #064ab0;
+    /* color: black; */
+    background-color: white;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 10%;
+    margin-left: 0%;
+	padding-bottom: 1%;
+	font-family: 'Metrophobic', sans-serif;
+} 
+
+ul{
+    position: fixed;
+    width: auto;
+    left: 55%;
+    display: flex;
+    background-color: white;
+    padding-left: -3%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-left: -0.5%;
+    border-style: none none none none;
+    margin-top: 0%;
+	padding-bottom: 1.06%;
+}
+
+ul a{
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-family:sans-serif;
+    /* color:rgb(0, 162, 255); */
+    color: #2b3a67;
+    background-color: #fff;
+    padding: 2vw;
+    padding-bottom: 2vw;
+    transition: 0.5s;
+    margin: 0%;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 6.5vw;
+    margin-top: 0%;
+    /* background-color: #098be8c0; */
+    bottom: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+ul a:hover{
+	background-color: rgba(219, 0, 248, 0.36);
+}
+
+#bar{
+	width: 100%;
+	height: 0.5vw;
+	background-color: #098be8a4;
+	margin-top: 5.5vw;
+	position: absolute;
+}
+
+.offer{
+	position: relative;
+	color: #000000;
+	font-size: 4vw;
+	z-index: -1;
+	font-family: 'Arbutus Slab', serif;
+	font-size: 4vw;
+	font-family: 'Metrophobic', sans-serif;
+
+}
+
+/* sliding background images */
+
+.slider {
+	z-index: -1;
+	width: 120vw;
+	height: 40vw;
+	overflow: hidden;
+	border-radius: 3px;
+	box-shadow: 3px 10px 15px 0px rgba(0,0,0,0.4);
+	margin-top: 4%;
+	position:absolute;
+  }
+
+  .ulimg{
+	position: absolute;
+	display: flex;
+    list-style: none;
+    transition: all 1s ease;
+  }
+
+  .ulimg img{
+	width: 100vw;
+  	height: 45vw;
+  	border-radius: 3px;
+	opacity: 0.7;
+  }
+  
+
+/* welcome sentence animation, text,boxes */
+
+#container {
+	margin-top: 1%;
+	text-align: center;
+	font-size: 250%;
+	height: 48vw;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	width: 100%;	
+}
+
+#container-text {
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+	
+}
+
+#rewrite-text {
+	position: relative;
+	color: rgb(0, 0, 0);
+	letter-spacing: 2px;
+	font-family: monospace;
+	font-size: 4vw;
+	z-index: -1;
+}
+
+#cursor {
+	width: 3px;
+	height: 30px;
+	background-color: rgb(9, 7, 4);
+	color: aliceblue;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: rgb(14, 11, 5); 
+	}
+}
+
+.box {
+	margin-bottom: 25%;
+	position: absolute;
+	width: 8%;
+	height: 8%;
+	background-color: rgba(219, 0, 248, 0.638);
+	transform-origin: left top;
+	margin-right: 95%;
+	margin-top: -10%;
+
+  }
+
+  .box2 {
+	margin-top: 30%;
+	position: absolute;
+	width: 3.5%;
+	height: 8%;
+	background-color: rgba(7, 171, 217, 0.577);
+	transform-origin: left top;
+	margin-right: 99%;
+  }
+
+  .box3 {
+	margin-bottom: 35%;
+	position: absolute;
+	width: 3.5%;
+	height: 8%;
+	background-color: rgba(7, 171, 217, 0.577);
+	transform-origin: right top;
+	margin-left: 100%;
+  }
+
+  .box4 {
+	margin-top: 20%;
+	position: absolute;
+	width: 8%;
+	height: 8%;
+	background-color: rgba(219, 0, 248, 0.638);
+	transform-origin: right top;
+	margin-left: 99%;
+  }
+ 
+/* Our Services Part */
+
+.Services{
+	margin-top: 10%;
+}
+
+#titleServices{
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Yeseva One', cursive;
+}
+
+.section-two {
+	position: relative;
+	height:30vw;
+	width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+  }
+
+  .section-two-title {
+	font-family: TitlesFont;
+	font-size: 5.2vw;
+	text-align: center;
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 54%;
+	left: 50%;
+	right: 6%;
+	bottom: 50%;
+	color: black;
+  }
+
+  font{
+	color: rgb(0, 120, 241);
+}
+
+  .section-two-text {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2vw;
+	text-align: center;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	top: 15%;
+	right: 50%;
+	left: 4%;
+	color: black;
+  }
+
+  .column {
+	float: left;
+	width: 33.33%;
+	position: relative;
+	margin-bottom: 5vw;
+	padding-top: 2vw;
+  }
+
+  .column a {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.4vw;
+	text-align: match-parent;
+	position: absolute;
+	color: black;
+	top: 110%;
+	left: 30%;
+  }
+
+  .column p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.4vw;
+	text-align: match-parent;
+	position: absolute;
+	color: black;
+	top: 105%;
+	left: 25%;
+  }
+
+  .row::after {
+	content: "";
+	position: absolute;
+	clear: both;
+	display: table;
+  }
+
+  * {
+	box-sizing: border-box;
+  }
+ 
+/* Quote Part */
+
+.quote{
+	background-color:rgb(111, 167, 227);
+	z-index: -1;
+	font-size: 3vw;
+	text-align: center;
+	margin-top: 15%;
+	margin-right: 0%;
+	height: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.buffet{
+	margin-top: 2%;
+	font-size: 2vw;
+}
+
+/* we are part */
+
+.weare{
+	margin-top: 5%;
+	width: 100%;
+	text-align: center;
+	height: 15vw;
+}
+
+.wearetitle{
+	font-size: 5vw;
+	color: rgb(212, 0, 255);
+	font-family: 'Alike', serif;	font-size: 5.5vw;
+}
+
+.wearetxt{
+	display: flex;
+}
+
+.wearetxt p{
+	margin-right: 5%;
+	margin-left: 5%;
+	font-size: 2vw;
+	margin-top: 5%;
+}
+
+.weare h4{
+	font-size: 3vw;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	color: rgb(0, 120, 241);
+}
+
+.businessman{
+	width: 20%;
+	height: 20%;
+	margin-right: 10%;
+	margin-top: 1%;
+}
+
+/* footer part */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 30%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	display: flex;
+}
+
+.infos p{
+	margin-top: 5%;
+}
+
+.openning{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 4%;
+	white-space: nowrap;
+}
+
+.openning img{
+	width: 30%;
+	height: 30%;
+}
+
+.location{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3.2%;
+}
+
+.location img{
+	width: 30%;
+	height: 30%;
+}
+
+.email{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	white-space: nowrap;
+	padding-bottom: 4%;
+}
+
+.email img{
+	width: 30%;
+	height: 30%;
+}
+
+.call{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	margin-right: 1%;
+}
+
+.call img{
+	width: 30%;
+	height: 30%;
+}
+
+.numbers{
+	display: flex;
+	margin: 4%;
+}
+
+/* made by Smart Accounting */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+}

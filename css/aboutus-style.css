@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;  
+  }
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+body {
+	background-color: white;
+	overflow-x: hidden; 
+    
+}
+
+header h1{
+	position: relative;
+	text-align: center;
+	margin-top: 5%;
+	display: block;
+	font-family: 'Alike', serif;	font-size: 5.5vw;
+	/* color: rgb(18, 44, 192); */
+	color: #064ab0;
+	/* color: black; */
+	font-family: 'Yeseva One', cursive;
+	margin-right: 3%;
+    margin-left: 3%;
+	font-size: 9vw;
+    margin-top: 7%;
+	font-family: 'Metrophobic', sans-serif;
+
+}
+
+ul{
+	position: relative;
+	width: 100%;
+	display: flex;
+	background-color: white;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	margin-left: 0%;
+	border-style: solid none none none;
+	border-color: #064ab0;
+}
+
+ul a{
+	font-size: 4vw;
+	text-decoration: none;
+	font-family:sans-serif;
+	/* color:rgb(0, 162, 255); */
+	color: #2b3a67;
+	background-color: #fff;
+	padding: 0vw;
+    padding-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+	transition: 0.5s;
+}
+nav{
+    position: relative;
+    width: 90%;
+    height: 6vw;
+    margin-top: 0.5%;
+    /* background-color: #098be8c0; */
+	bottom: 10%;
+	margin-bottom: 0.5%;
+	margin-left: 5%;
+    margin-right: 0%;
+    padding-left: 0%;
+}
+
+/* About Us */
+
+.us{
+    text-align: center;
+    margin-top: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.us h4{
+    font-size: 8vw;
+    margin-bottom: 10%;
+    color: #363131;
+}
+
+font{
+    color: #064ab0;
+}
+
+.us p{
+    color: #000f5b;
+}
+
+/* About us Box */
+
+.usbox{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgba(233, 239, 244, 0.544);
+    color: #000f5b;
+    border-radius: 10px;
+    box-shadow: 0px 9px 30px 0px rgba(5, 138, 255, 0.3);
+    padding-bottom: 10%;
+    margin-right: 0%;
+}
+
+.usbox h3{
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+}
+
+.usbox p{
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+.usbox img{
+    visibility: hidden;
+    margin-right: 0%;
+    width: 2%;
+}
+
+/* footer section */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 30%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.infos img{
+	width: 10%;
+	height: 10%;
+}
+
+.openning{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.openning img{
+	width: 20%;
+	height: 20%;
+}
+
+.location{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.location img{
+	width: 20%;
+	height: 20%;
+}
+
+.email{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.email img{
+	width: 20%;
+	height: 20%;
+}
+
+.call{
+	position: relative;
+	margin-bottom: 2;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	width: 60%;
+	background-color: #0073ff;
+	color: rgba(255, 255, 255, 0.778);
+	padding-bottom: 2%;
+	padding-top: 2%;
+	border: 30% solid;
+	box-shadow: 0px 5px 10px 0px rgba(204, 0, 255, 0.5); 
+	font-size: 4vw;
+}
+
+.call img{
+	width: 20%;
+	height: 20%;
+}
+
+/* made by Smart Accounting */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+
+@media screen and (min-width: 500px){
+
+html{
+    box-sizing: border-box;
+    height: 100%;  
+    }
+    
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body {
+    background-color: white;
+    overflow-x: hidden;     
+}
+
+header{
+    display: flex;
+    margin-top: 0%;
+    position: relative;
+}
+
+header h1{
+    position: fixed;
+    text-align: left;
+    margin-top: 0.7%;
+    display: block;
+	font-family: 'Alike', serif;	font-size: 4.8vw;
+    /* color: rgb(18, 44, 192); */
+    color: #064ab0;
+    /* color: black; */
+    background-color: white;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 10%;
+    margin-left: 0%;
+	padding-bottom: 1%;
+	font-family: 'Metrophobic', sans-serif;
+
+} 
+
+ul{
+    position: fixed;
+    width: auto;
+    left: 55%;
+    display: flex;
+    background-color: white;
+    padding-left: -3%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-left: -0.5%;
+    border-style: none none none none;
+    margin-top: 0%;
+	padding-bottom: 1.06%;
+}
+
+ul a{
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-family:sans-serif;
+    /* color:rgb(0, 162, 255); */
+    color: #2b3a67;
+    background-color: #fff;
+    padding: 2vw;
+    padding-bottom: 2vw;
+    transition: 0.5s;
+    margin: 0%;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 6.5vw;
+    margin-top: 0%;
+    /* background-color: #098be8c0; */
+    bottom: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+ul a:hover{
+    background-color: #098be8a4;;
+}
+
+#bar{
+    width: 100%;
+    height: 0.5vw;
+    background-color: #098be8a4;
+    margin-top: 5.5vw;
+    position: absolute;
+}
+
+/* About Us */
+
+.us{
+    margin-top: 5%;
+}
+
+.us h4{
+    font-size: 6vw;
+    margin-bottom: 5%;
+}
+
+.us p{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.7vw;
+}
+
+/* About Us Box */
+
+.usbox{
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 0.1%;
+    margin-bottom: -15%;
+    background-color: rgba(126, 197, 255, 0.544);
+}
+
+.usbox h3{
+    font-size: 2.5vw;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    color: #203f66;
+}
+
+.usbox p{
+    font-size: 1.5vw;
+    color: #525252;
+}
+
+.usbox img{
+    visibility: visible;
+    position: absolute;
+    display: block;
+    margin-left: -15%;
+    margin-top: -3%;
+    z-index: -1;
+    opacity: 0.4;
+    height: 29vw;
+    width: 80vw;
+}
+
+/* footer part */
+
+footer{
+	position: relative;
+}
+
+.infos{
+	margin-bottom: 0%;
+	margin-top: 30%;
+	background-color: #051a49cc;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	display: flex;
+}
+
+.infos p{
+	margin-top: 5%;
+}
+
+.openning{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 4%;
+	white-space: nowrap;
+}
+
+.openning img{
+	width: 30%;
+	height: 30%;
+}
+
+.location{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3.2%;
+}
+
+.location img{
+	width: 30%;
+	height: 30%;
+}
+
+.email{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	white-space: nowrap;
+	padding-bottom: 4%;
+}
+
+.email img{
+	width: 30%;
+	height: 30%;
+}
+
+.call{
+	width: 80%;
+	height: 20%;
+	margin-left: 1%;
+	font-size: 1.5vw;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-right: 3%;
+	padding-left: 3%;
+	margin-right: 1%;
+}
+
+.call img{
+	width: 30%;
+	height: 30%;
+}
+
+.numbers{
+	display: flex;
+	margin: 4%;
+}
+
+/* made by Smart Accounting */
+
+.madeby{
+	width: 100%;
+	text-align: center;
+	background-color: #2b3a67;
+	padding: 0.5%;
+}
+}
